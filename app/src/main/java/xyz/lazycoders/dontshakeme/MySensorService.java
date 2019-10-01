@@ -21,7 +21,7 @@ public class MySensorService extends Service implements SensorEventListener {
 
     boolean firstUpdate = true;
     boolean shakeInitiated = false;
-    float shakeThreshold = 8.5f;
+    float shakeThreshold = 8f;
 
     boolean playing = false;
     int counts;
